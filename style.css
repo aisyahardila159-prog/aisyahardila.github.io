@@ -1,0 +1,480 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #0b152e;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    
+}
+
+
+/*
+* navbar
+*/
+
+.logo-img {
+  width: 40px;
+  height: auto;
+}
+
+header {
+ 
+  align-items: center;
+  background: #0a0f1c;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /* z-index: 100; */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav {
+ justify-content: space-between;
+ padding: 15px;
+ display: flex;
+ gap: 1rem; 
+ align-items: center;
+}
+
+nav ul {
+   display: flex;
+   align-items: center;  
+   gap: 60px;
+   list-style: none; 
+}
+
+/* nav div img {
+    width: 50px;
+} */
+
+.logo .name {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+  display: flex;
+    gap: 1rem;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Georgia;
+    color: azure;
+    font-weight: bold;
+    padding: 8px 0;
+    transition: all;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+
+nav ul li a :hover {
+    color:  #00bfff;
+    border-bottom: 1px solid #dfdee800;
+}
+
+.navbar {  
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #18143b; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  /* z-index: 1000;  */
+}
+
+.btn-nav {
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: lavender;
+  margin: 20px;
+  height: 30px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn-nav:hover {
+  background-color: #7171f1;
+}
+
+/*
+* hero section
+*/
+
+.hero-img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero {
+  /* position: relative; */
+  background-image: url("images/Background Blue.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:  100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 10% 50px;
+  padding: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+} 
+
+.hero-text h1 span {
+  color: #00bfff;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn-hero {
+  background-color:rgba(255, 255, 255, 0.1);
+  color: lavender;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn-hero:hover {
+  background-color: #7171f1;
+}
+
+.fa-brands {
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.fa-tiktok {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: lavender;
+}
+
+.fa-tiktok:hover {
+  background-color: black;
+}
+
+.fa-instagram {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: lavender;
+}
+
+.fa-instagram:hover {
+  background-color: #f576ab;
+}
+
+.fa-whatsapp {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: lavender;
+}
+
+.fa-whatsapp:hover {
+  background-color: #53b882;
+}
+
+/*
+* about section
+*/
+
+about section {
+  position: static;
+}
+
+.about {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  grid-column: 2em;
+  /* background: var(--secon bg color--); */
+  /* background-image: url("../images/Background-Black.jpeg"); */
+  min-height: 100vh;
+}
+
+about .container {
+  display: flex;
+  justify-content: center;
+  /* background-image: url("../images/Background-Black.jpeg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:  100vh;
+}
+
+.about-card {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #18143b; */
+  /* padding: 40px; */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  max-width: 1000px;
+  width: 100%;
+  transition: transfrom 0.3s ease;
+}
+
+/* .about-card:hover {
+  transform: translate(-10px);
+} */
+
+.about-card img {
+  width: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  display: block;
+  float: left;
+  margin-top: 35px;
+}
+
+.about-text {
+  flex: 1;
+  gap: 2rem;
+  max-width: 600px;
+  padding: 20px;
+  display: grid;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text span {
+  color: #00bfff;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.info-about {
+  padding: 20px;
+  display: grid;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #1b1b2a, #31518a);
+  color: lavender;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  width: 50%;
+  height: 5em;
+  font-size: 18px;
+  font-weight: blod;
+  margin-bottom: 20px;
+}
+
+.btn-about {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: lavender;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  height: 50px;
+  max-width: 160px;
+} 
+
+.btn-about:hover {
+  background-color: #7171f1;
+}
+
+.container {
+  margin-top: 20px;
+  padding:50px;
+}
+
+/*
+* school history section
+*/
+
+.school-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #18143b;
+  color: #fff;
+  
+}
+
+.school-section h3 {
+  color: #38bdf8;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.school-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.school-container {
+  max-width: 1400px;
+  margin: auto;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.school-card {
+  background: linear-gradient(135deg, #1b1b2a, #31518a);
+  border-radius: 30px;
+  padding: 30px;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.school-card:hover {
+  transform: translateY(-10px);
+  background:  #2563eb70;
+}
+
+.school-card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0a0f1c;
+}
+
+.school-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.school-card span {
+  font-size: 14px;
+  color: #1d2228;
+}
+
+
+
+.school-detail {
+  width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.school-img {
+  display: none;
+}
+.school-detail
+.school-card
+.school-img:hover {
+  display: block;
+}
+
+
+/*
+/ foother
+*/
+
+.footer{
+  background: #0f172a;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-container{
+  margin-bottom: 20px;
+}
+
+.footer h3 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-quotes {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.footer-author {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 20px;
+}

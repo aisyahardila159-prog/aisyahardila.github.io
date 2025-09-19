@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPortofolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <!--Header / Navbar-->
+  <header style="position: fixed;">
+    <nav>
+      <div class="logo">
+        <img src="images/MyLogo.jpg" width="50px" height="50px"alt="MyLogo" class="logo-img" />
+        <span class="name">AISYAH</span>
+      </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skill</a></li>
+            <li><a href="#">My School</a></li>
+        </ul>
+          <a href="#" class="btn-nav">Let's Talk</a>
+    </nav>  
+  </header>
+
+  <!--Hero Section-->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hey! I'm <span>AISYAH ARDILA</span></h1>
+        <h2>I'M A STUDENT</h2>
+        <p>I'm a vocational student high school determined to delve deeper into 
+           the world of IT. With a strong sense of curiosity, I continually strive
+           to develop myself and gain more knowledge so I can contribute to the 
+           technology field.</p>
+        <a href="#contact" class="btn-hero">Get in Touch</a>
+        <a href="https://www.tiktok.com/@" target="_blank" class="logo-sosmed">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://www.instagram.com/@cha-geuni09" target="_blank" class="logo-sosmed">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/628979235501" target="_blank" class="logo-sosmed">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+      <div class="hero-img">
+        <image src="images\Myfoto2.jpg" width="290px" alt="Myfoto2" />
+      </div>
+  </section>
+
+  <!--About Section-->
+  <section id="about">
+    <div class="container">
+      <div class="about-card" >
+      <img src="images\Myfoto3.jpg" width="290px" alt="Myfoto3" />
+    </div>
+
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <p>I have skills in various fields and a strong interest in technology.
+         Furthermore, I enjoy learning new things and am passionate about them.
+         I'm currently exploring and improving my skills in the technology field.</p>
+    </div>
+
+    <div class="info-about">
+      <div class="stat-card">
+        <span>50+</span>
+        <p>Years Of Experience</p>
+      </div>
+       <a href="#" class="btn-about">Get In Touch</a>
+    </div>
+  </section>
+
+<!--School History Section-->
+<section class="school-section">
+  <h3>MY EDUCATION</h3>
+  <h2>Riwayat Sekolah</h2>
+
+  <div class="school-container">
+    <div class="school-card" onclick="toggleDetail(this)">
+      <h4>SD</h4>
+      <p>SDIT Al-Izzah</p>
+      <span>2016-2022</span>
+      <div class="school-detail">
+           Jl. Komp. Patal Jl. Kemandoran, Pekayon Jaya, Kec. Bekasi Selatan, Kota Bekasi, Jawa Barat
+        <img src="../Website_Portofolio ku/images\SDIT Al-Izzah.jpg" alt="SDIT Al-Izz ah"  width="340px" class="school-img"> 
+      </div>
+    </div>
+
+  <div class="school-card" onclick="toggleDetail(this)"> 
+    <h4>SMP</h4>
+    <P>SMPIT Al-Izzah Sukabumi</P>
+    <span>2022-2025</span>
+    <div class="school-detail">
+         Limusnunggal, Cibeureum, Kota Sukabumi, Jawa Barat
+      <img src="../Website_Portofolio ku/images\SMPIT Al-Izzah Sukabumi.jpg" alt="SMPIT Al-Izzah" class="school-img">    
+    </div>
+  </div>
+
+  <div class="school-card" onclick="toggleDetail(this)">
+    <h4>SMK</h4>
+    <p>SMK Skill Village Islamic School</p>
+    <span>Right Now</span>
+    <div class="school-detail">
+        Jl. Raya Jonggol-Dayeuh Desa Sukasirna, Jonggol, Jawa Barat
+        <img src="../Website_Portofolio ku/images\SMK Skill Village.jpg" alt="SMK Skill Village" class="school-img"> 
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer class="footer">
+  <div class="footer-container">
+    <h3>Quotes of The Day</h3>
+    <p class="footer-quotes">
+      Success does not belong to smart people, success belongs to those who always try
+    </p>
+    <p class="footer-author">- B.J Habibie </p>
+  </div>
+
+  <p class="footer-copy">© 2025 Aisyah Ardila.</p>
+</footer>
+
+</body>
+</html> 

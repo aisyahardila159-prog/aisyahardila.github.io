@@ -141,7 +141,7 @@ nav ul li a :hover {
 
 .hero {
   /* position: relative; */
-  background-image: url("images.Background Blue.jpeg");
+  background-image: url("Background Blue.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height:  100vh;
@@ -479,4 +479,5 @@ about .container {
   margin-top: 20px;
 
 }
+
 
